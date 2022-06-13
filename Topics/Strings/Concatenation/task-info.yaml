@@ -1,0 +1,19 @@
+type: code
+files:
+- name: main.go
+  visible: true
+  text: "package main\n\nimport \"fmt\"\n\nfunc reconstructSpeech(words []string)\
+    \ (speech string) {\n\t// From the very beginning the speech is empty:\n\tspeech\
+    \ = \"\"\n\n\tfor _, word := range words {\n\t\t? += ? // Concatenate the 'speech'\
+    \ and 'word' variables here!\n\t}\n\n\t// DO NOT remove the 'return speech' statement!\n\
+    \treturn speech\n}\n\n// DO NOT MODIFY the main function below! It contains the\
+    \ parts of the speech:\nfunc main() {\n\tvar words = []string{\n\t\t\"Akatsuki\
+    \ wa tsudota!\\n\",\n\t\t\"Konan, Itachi, Kisame, Sasori, Deidara, Kakuzu, Hidan,\
+    \ Orochimaru, Zetsu.\\n\",\n\t\t\"Each of you has your own agenda and your own\
+    \ dreams...\\n\",\n\t\t\"We have finally come this far...\\n\",\n\t\t\"And now\
+    \ at last we will move into full-scale action.\",\n\t}\n\n\tfmt.Println(reconstructSpeech(words))\n\
+    }"
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/15418#comment
+status: Solved
+record: -1

@@ -1,0 +1,37 @@
+type: code
+files:
+- name: main.go
+  visible: true
+  text: |-
+    package main
+
+    import "fmt"
+
+    func main() {
+        var p = new(int)
+        var x int
+        fmt.Scan(&x)
+
+        // Write your code below:
+        ? = ?
+
+        fmt.Println(?)
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/15470#comment
+status: Failed
+feedback:
+  message: |
+    Failed test #1 of 3. Wrong answer
+
+    This is a sample test from the problem statement!
+
+    Test input:
+    10
+    Correct output:
+    10
+
+    Your code output:
+    0xc0000ba000
+  time: Mon, 13 Jun 2022 07:02:59 UTC
+record: -1

@@ -1,0 +1,4 @@
+content:
+- Theory
+- The difference between fmt.Printf and fmt.Print
+- Reusing a variable multiple times
